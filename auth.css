@@ -1,0 +1,397 @@
+/* =========================================================
+   Arvand School 1
+   Auth Page Stylesheet
+   ========================================================= */
+
+
+/* =========================================================
+   1. Auth Header
+   ========================================================= */
+
+   .auth-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 14px 0;
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.auth-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+}
+
+.auth-header .logo-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.auth-header .logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.auth-header .logo-text strong {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.auth-header .logo-text span {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 11px;
+    line-height: 1.3;
+}
+
+
+/* =========================================================
+   2. Auth Main
+   ========================================================= */
+
+   .auth-main {
+    position: relative;
+    min-height: calc(100vh - 68px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background: var(--background-light);
+}
+
+
+/* =========================================================
+   3. Auth Wrapper
+   ========================================================= */
+
+.auth-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min(100%, 1000px);
+    min-height: 70vh;
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   4. Auth Panel
+   ========================================================= */
+
+.auth-panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 35px;
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    margin: 15px;
+    transition:
+        background 0.35s ease,
+        opacity 0.35s ease,
+        border-color 0.35s ease;
+    cursor: pointer;
+}
+
+
+/* حالت فعال */
+
+.auth-panel.active {
+    background: var(--white);
+    border-color: var(--primary-color);
+    opacity: 1;
+    cursor: default;
+    box-shadow: 0 4px 15px rgba(8, 13, 69, 0.08);
+}
+
+
+/* حالت غیرفعال */
+
+.auth-panel:not(.active) {
+    background: #F5F6F8;
+    border-color: #E5E7EB;
+    opacity: 0.85;
+}
+
+.auth-panel:not(.active):hover {
+    opacity: 1;
+    border-color: var(--secondary-color);
+}
+
+
+/* =========================================================
+   5. Auth Panel Title (حالت دکمه)
+   ========================================================= */
+
+.auth-panel-title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.auth-panel-title h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 28px;
+    border-radius: 50px;
+    background: var(--background-light);
+    color: var(--text-light);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    transition:
+        background 0.35s ease,
+        color 0.35s ease,
+        transform 0.35s ease;
+}
+
+.auth-panel.active .auth-panel-title h2 {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   6. Auth Form
+   ========================================================= */
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    width: 100%;
+    margin: 0 auto;
+
+    transition: opacity 0.35s ease;
+}
+
+
+/* حالت غیرفعال: فرم دیده میشه ولی کم‌رنگ */
+
+.auth-panel:not(.active) .auth-form {
+    opacity: 0.55;
+    pointer-events: none;
+    filter: grayscale(0.3);
+}
+
+
+/* =========================================================
+   7. Auth Field
+   ========================================================= */
+
+.auth-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.auth-field label {
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.auth-field input,
+.auth-field select {
+    width: 100%;
+    height: 46px;
+    padding: 0 15px;
+
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+
+    background: var(--white);
+    color: var(--text-color);
+
+    font-family: inherit;
+    font-size: 14px;
+
+    outline: none;
+
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.auth-field input:focus,
+.auth-field select:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 3px rgba(79, 111, 174, 0.10);
+}
+
+.auth-field input::placeholder {
+    color: #9CA3AF;
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   8. Auth Message
+   ========================================================= */
+
+.auth-message {
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.auth-message.error {
+    color: #DC2626;
+}
+
+.auth-message.success {
+    color: #16A34A;
+}
+
+
+/* =========================================================
+   9. Auth Submit Button
+   ========================================================= */
+
+.auth-submit {
+    width: 100%;
+    height: 48px;
+
+    margin-top: 4px;
+    padding: 0 20px;
+
+    background: var(--primary-color);
+    color: var(--white);
+
+    border: 1px solid var(--primary-color);
+    border-radius: var(--radius-sm);
+
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.auth-submit:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+    transform: translateY(-1px);
+}
+
+.auth-submit:active {
+    transform: translateY(0);
+}
+/* =========================================================
+   9.5 Guest Link
+   ========================================================= */
+
+   .auth-guest {
+    padding: 18px 20px 25px;
+    text-align: center;
+    background: var(--background-light);
+}
+
+.auth-guest-link {
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: 600;
+
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.auth-guest-link:hover {
+    background: var(--secondary-color);
+    color: var(--white);
+}
+
+
+/* =========================================================
+   10. Mobile
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .auth-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .auth-panel {
+        padding: 40px 22px;
+    }
+
+    .auth-panel-login {
+        border-left: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .auth-panel-register {
+        border-right: none;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .auth-panel-title h2 {
+        font-size: 22px;
+    }
+
+    .auth-form {
+        gap: 14px;
+    }
+
+    .auth-field input,
+    .auth-field select {
+        height: 44px;
+        font-size: 13px;
+    }
+
+    .auth-submit {
+        height: 46px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .auth-panel {
+        padding: 30px 16px;
+    }
+
+    .auth-panel-title {
+        margin-bottom: 25px;
+    }
+
+    .auth-panel-title h2 {
+        font-size: 20px;
+    }
+
+}

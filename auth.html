@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>ورود و ثبت‌نام — دبیرستان اروند ۱</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+
+</head>
+
+
+<body>
+
+    <!-- ==================== Header ==================== -->
+
+    <header class="auth-header">
+
+        <div class="container">
+
+            <a href="index.html" class="logo" aria-label="دبیرستان اروند ۱">
+
+                <img
+                    src="images/logo.jpg"
+                    alt="لوگوی دبیرستان اروند ۱"
+                    class="logo-image"
+                >
+
+                <div class="logo-text">
+                    <strong>دبیرستان اروند ۱</strong>
+                    <span>متوسطه اول</span>
+                </div>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================== Main ==================== -->
+
+    <main class="auth-main">
+
+        <div class="auth-wrapper">
+
+            <!-- ========== ورود ========== -->
+
+            <section class="auth-panel auth-panel-login active" data-panel="login">
+
+                <div class="auth-panel-title">
+                    <h2>ورود</h2>
+                </div>
+
+                <form class="auth-form" id="loginForm" novalidate>
+
+                    <div class="auth-field">
+
+                        <label for="loginUsername">
+                            نام کاربری
+                        </label>
+
+                        <input
+                            type="text"
+                            id="loginUsername"
+                            name="username"
+                            autocomplete="username"
+                            placeholder="نام کاربری خود را وارد کنید"
+                        >
+
+                    </div>
+
+
+                    <div class="auth-field">
+
+                        <label for="loginPassword">
+                            رمز عبور
+                        </label>
+
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            name="password"
+                            autocomplete="current-password"
+                            placeholder="رمز عبور خود را وارد کنید"
+                        >
+
+                    </div>
+
+
+                    <div
+                        class="auth-message"
+                        id="loginMessage"
+                        aria-live="polite"
+                    ></div>
+
+
+                    <button
+                        type="submit"
+                        class="auth-submit"
+                    >
+                        ورود
+                    </button>
+
+                </form>
+
+            </section>
+
+
+            <!-- ========== ثبت‌نام ========== -->
+
+            <section class="auth-panel auth-panel-register" data-panel="register">
+
+                <div class="auth-panel-title">
+                    <h2>ثبت‌نام</h2>
+                </div>
+
+                <form class="auth-form" id="registerForm" novalidate>
+
+                    <div class="auth-field">
+
+                        <label for="registerFullName">
+                            نام و نام خانوادگی
+                        </label>
+
+                        <input
+                            type="text"
+                            id="registerFullName"
+                            name="fullName"
+                            autocomplete="name"
+                            placeholder="نام کامل خود را وارد کنید"
+                        >
+
+                    </div>
+
+
+                    <div class="auth-field">
+
+                        <label for="registerRole">
+                            نقش
+                        </label>
+
+                        <select
+                            id="registerRole"
+                            name="role"
+                        >
+                            <option value="">انتخاب کنید</option>
+                            <option value="دانش‌آموز">دانش‌آموز</option>
+                            <option value="والد">والد</option>
+                            <option value="کارمند">کارمند</option>
+                            <option value="سایر">سایر</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="auth-field">
+
+                        <label for="registerUsername">
+                            نام کاربری
+                        </label>
+
+                        <input
+                            type="text"
+                            id="registerUsername"
+                            name="username"
+                            autocomplete="username"
+                            placeholder="نام کاربری (حداقل ۴ کاراکتر انگلیسی)"
+                        >
+
+                    </div>
+
+
+                    <div class="auth-field">
+
+                        <label for="registerPassword">
+                            رمز عبور
+                        </label>
+
+                        <input
+                            type="password"
+                            id="registerPassword"
+                            name="password"
+                            autocomplete="new-password"
+                            placeholder="رمز عبور (حداقل ۶ کاراکتر)"
+                        >
+
+                    </div>
+
+
+                    <div
+                        class="auth-message"
+                        id="registerMessage"
+                        aria-live="polite"
+                    ></div>
+
+
+                    <button
+                        type="submit"
+                        class="auth-submit"
+                    >
+                        ثبت‌نام
+                    </button>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+        <!-- ==================== Guest Link ==================== -->
+
+        <div class="auth-guest">
+
+            <a href="index.html" class="auth-guest-link">
+                بازدید بدون ثبت‌نام و ورود
+            </a>
+    
+        </div>
+        <!-- ==================== Chat Widget ==================== -->
+
+        <button
+        class="chat-bubble"
+        id="chatBubble"
+        type="button"
+        aria-label="باز کردن گفتگو"
+    >
+        <span class="chat-bubble-icon">💬</span>
+    </button>
+
+
+    <div
+        class="chat-window"
+        id="chatWindow"
+        aria-hidden="true"
+    >
+
+        <!-- Header -->
+
+        <div class="chat-header">
+
+            <div class="chat-header-title">
+
+                <strong>پشتیبانی</strong>
+
+                <span class="chat-header-status">
+                    آنلاین
+                </span>
+
+            </div>
+
+            <button
+                class="chat-header-close"
+                id="chatClose"
+                type="button"
+                aria-label="بستن"
+            >
+                &times;
+            </button>
+
+        </div>
+
+
+        <!-- Body -->
+
+        <div class="chat-body" id="chatBody"></div>
+
+
+        <!-- Suggestions -->
+
+        <div class="chat-suggestions" id="chatSuggestions">
+
+            <button
+                class="chat-suggestion"
+                type="button"
+                data-question="ساعت کاری مدرسه چنده؟"
+            >
+                ساعت کاری
+            </button>
+
+            <button
+                class="chat-suggestion"
+                type="button"
+                data-question="آدرس مدرسه کجاست؟"
+            >
+                آدرس
+            </button>
+
+            <button
+                class="chat-suggestion"
+                type="button"
+                data-question="شماره تماس مدرسه چیه؟"
+            >
+                شماره تماس
+            </button>
+
+            <button
+                class="chat-suggestion"
+                type="button"
+                data-question="چطور ثبت‌نام کنم؟"
+            >
+                ثبت‌نام
+            </button>
+
+            <button
+                class="chat-suggestion"
+                type="button"
+                data-question="مدرسه چه امکاناتی داره؟"
+            >
+                امکانات
+            </button>
+
+            <button
+                class="chat-suggestion"
+                type="button"
+                data-question="کادر مدرسه چیا هستن؟"
+            >
+                کادر
+            </button>
+
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="chat-footer">
+
+            <p class="chat-notice">
+                با رفرش صفحه، گفتگو پاک می‌شود.
+            </p>
+
+            <form class="chat-form" id="chatForm">
+
+                <input
+                    type="text"
+                    class="chat-input"
+                    id="chatInput"
+                    placeholder="سؤالتون رو بنویسید..."
+                    autocomplete="off"
+                >
+
+                <button
+                    type="submit"
+                    class="chat-send"
+                    aria-label="ارسال"
+                >
+                    ➤
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <link rel="stylesheet" href="chat.css">
+
+    <script src="chat.js"></script>
+
+
+    <!-- ==================== JavaScript ==================== -->
+
+    <script src="auth.js"></script>
+
+</body>
+
+</html>
