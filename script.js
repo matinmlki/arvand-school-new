@@ -534,7 +534,6 @@ function unlockScroll() {
 
     let currentNewsIndex = 0;
 
-
     function getNewsData() {
 
         return Array.from(newsCards).map(card => {
@@ -553,6 +552,15 @@ function unlockScroll() {
 
             const text =
                 card.querySelector(".news-content p");
+
+            const galleryImages =
+                card.querySelectorAll(".news-gallery img");
+
+            const gallery =
+                Array.from(galleryImages).map(img => ({
+                    src: img.src,
+                    alt: img.alt
+                }));
 
             return {
                 element: card,
@@ -576,14 +584,13 @@ function unlockScroll() {
                     : "",
                 text: text
                     ? text.textContent.trim()
-                    : ""
+                    : "",
+                gallery: gallery
             };
 
         });
 
     }
-
-
     function updateNewsModal() {
 
         const news =
@@ -629,7 +636,40 @@ function unlockScroll() {
                 current.text;
         }
 
+        /* گالری عکس‌ها */
+        const modalNewsGallery =
+            document.querySelector("#modalNewsGallery");
+
+        if (modalNewsGallery) {
+
+            modalNewsGallery.innerHTML = "";
+
+            if (current.gallery && current.gallery.length) {
+
+                current.gallery.forEach(img => {
+
+                    const imgEl =
+                        document.createElement("img");
+
+                    imgEl.src = img.src;
+                    imgEl.alt = img.alt;
+
+                    modalNewsGallery.appendChild(imgEl);
+
+                });
+
+            }
+
+        }
+
     }
+
+
+      
+    
+
+
+
 
 
     function openNews(index) {
@@ -700,6 +740,7 @@ function unlockScroll() {
         );
 
     });
+    
 
 
     if (newsModalClose) {

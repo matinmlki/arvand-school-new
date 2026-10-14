@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)https://my.shad.ir/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style><meta name="title" content="Shad"><meta name="description" content="Shad PWA"><meta name="application-name" content="Shad"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="HandheldFriendly" content="true"><meta name="theme-color" content="#f5f5f5"><meta name="mobile-web-app-title" content="Shad"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Shad"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="icon" href="https://my.shad.ir/assets/icons/icon.png"><link rel="apple-touch-icon" href="https://my.shad.ir/assets/icons/manifest/icon-192x192.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_14_Pro_Max_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_14_Pro_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_14_Plus__iPhone_13_Pro_Max__iPhone_12_Pro_Max_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_14__iPhone_13_Pro__iPhone_13__iPhone_12_Pro__iPhone_12_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_13_mini__iPhone_12_mini__iPhone_11_Pro__iPhone_XS__iPhone_X_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_11_Pro_Max__iPhone_XS_Max_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_11__iPhone_XR_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/iPhone_8__iPhone_7__iPhone_6s__iPhone_6__4.7__iPhone_SE_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/4__iPhone_SE__iPod_touch_5th_generation_and_later_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/12.9__iPad_Pro_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/11__iPad_Pro__10.5__iPad_Pro_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/10.9__iPad_Air_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/10.5__iPad_Air_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/10.2__iPad_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/9.7__iPad_Pro__7.9__iPad_mini__9.7__iPad_Air__9.7__iPad_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="https://my.shad.ir/assets/splash_screens/8.3__iPad_Mini_landscape.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_14_Pro_Max_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_14_Pro_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_14_Plus__iPhone_13_Pro_Max__iPhone_12_Pro_Max_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_14__iPhone_13_Pro__iPhone_13__iPhone_12_Pro__iPhone_12_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_13_mini__iPhone_12_mini__iPhone_11_Pro__iPhone_XS__iPhone_X_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_11_Pro_Max__iPhone_XS_Max_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_11__iPhone_XR_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_8_Plus__iPhone_7_Plus__iPhone_6s_Plus__iPhone_6_Plus_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/iPhone_8__iPhone_7__iPhone_6s__iPhone_6__4.7__iPhone_SE_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/4__iPhone_SE__iPod_touch_5th_generation_and_later_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/12.9__iPad_Pro_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/11__iPad_Pro__10.5__iPad_Pro_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/10.9__iPad_Air_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/10.5__iPad_Air_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/10.2__iPad_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/9.7__iPad_Pro__7.9__iPad_mini__9.7__iPad_Air__9.7__iPad_portrait.png"><link rel="apple-touch-startup-image" media="screen and (device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="https://my.shad.ir/assets/splash_screens/8.3__iPad_Mini_portrait.png"><link rel="manifest" href="https://my.shad.ir/manifest.json"><script src="./hsnzde_files/hammer-konva.js.download"></script><title>Shad</title><script defer="defer" src="./hsnzde_files/main.ac4503bbc00fcec3a7ed.js.download"></script><style type="text/css">/* commons */
+.hidden {
+  display: none;
+}
+
+.animating .view-wrapper,
+.deactive .view-wrapper,
+.swiping .view-wrapper {
+  overflow: hidden !important;
+  user-select: none;
+}
+
+.animating .view-wrapper,
+.animating .modal-backdrop,
+.animating .backdrop {
+  transition-duration: var(--animating-transition);
+  animation-duration: var(--animating-transition);
+}
+
+.tab-container.animating::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  content: "";
+}
+
+.view-container {
+  z-index: 1;
+}
+</style><style type="text/css">/* bottomSheet */
+.bs-container,
+.bs-container .view-wrapper,
+.bs-container .backdrop,
+.bs-view-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bs-container {
+  top: 0;
+  overflow: hidden;
+}
+
+.bs-view-wrapper {
+  top: 0;
+  overflow: hidden;
+}
+
+.bs-container .backdrop {
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  z-index: 0;
+}
+
+.bs-container .deactive .backdrop {
+  opacity: 1;
+}
+
+.bs-container .active .backdrop {
+  opacity: 1;
+}
+
+.bs-container.animating .backdrop {
+  transition-property: opacity;
+}
+
+.bs-container .view-wrapper {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate3d(0, 100%, 0);
+  z-index: 1;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: none;
+  background-color: var(--bs-bg);
+}
+
+.bs-container .bs-view-wrapper.full-height .view-wrapper {
+  overflow-y: auto;
+}
+
+.bs-container .active .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}
+
+.bs-container.animating .from .view-wrapper,
+.bs-container.animating .to .view-wrapper {
+  transition-property: transform;
+  transition-timing-function: ease;
+}
+
+.bs-container .to .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}
+
+.bs-container.animating.closing .from .view-wrapper {
+  transform: translate3d(0, 100%, 0);
+}
+
+.bs-container .deactive .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}
+
+.bs-container.animating.closing .from .backdrop {
+  opacity: 0;
+}
+
+.bs-container {
+  --transition-percent: null;
+}
+
+/* swiping */
+
+.bs-container.swiping .view-wrapper {
+  user-select: none;
+}
+
+.bs-container.swiping .from .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}
+
+.bs-container.swiping .to .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}
+
+.bs-container.animating.closing.swiping .from .view-wrapper {
+  transform: translate3d(0, 100%, 0);
+}
+
+.bs-container.animating.returning .from .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}
+
+.bs-container.animating.returning .to .view-wrapper {
+  transform: translate3d(0, calc(var(--transition-percent) * 1%), 0);
+}</style><style type="text/css">/* Buttons */
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.42857;
+  border-radius: 0.25rem;
+  user-select: none;
+  font-family: inherit;
+}
+.btn-error {
+  background-color: #ed6b75;
+  color: #fff;
+}
+.btn-error:hover,
+.btn-error:focus {
+  background-color: #e73d4a;
+}
+.btn-success {
+  color: #fff;
+  background-color: #36c6d3;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #27a4b0;
+}</style><style type="text/css">/* tabs */
+
+.master-container,
+.tab-container,
+.tab-scale-container,
+.master-container>.view-wrapper,
+.tab-container>.view-wrapper,
+.tab-scale-container>.view-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.master-container,
+.tab-container,
+.tab-scale-container {
+  overflow: hidden;
+}
+
+.view-container {
+  z-index: 1;
+}
+
+.master-container {
+  z-index: 0;
+}
+
+.master-container.deactive .view-wrapper,
+.tab-container.deactive .view-wrapper {
+  overflow: hidden;
+}
+
+.master-container>.view-wrapper,
+.tab-container>.view-wrapper {
+  overflow: auto;
+}
+
+.master-container>.view-wrapper,
+.tab-container>.view-wrapper {
+  background-color: var(--tab-bg);
+}
+
+.master-container>.view-wrapper {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.master-container>.view-wrapper.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.master-container.animating .from,
+.master-container.animating .to {
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.master-container.animating .view-wrapper.from {
+  opacity: 0;
+}
+
+.master-container.animating .view-wrapper.to {
+  opacity: 1;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%)
+  }
+
+  to {
+    transform: translateX(0)
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(-100%)
+  }
+}
+
+.tab-container .view-wrapper {
+  visibility: hidden;
+  transform: translate3d(100%, 0, 0);
+  --animation-brightness: 90%;
+}
+
+.tab-container .view-wrapper.active {
+  visibility: visible;
+}
+
+.tab-container.animating .from,
+.tab-container.animating .to {
+  transition-property: transform, -webkit-filter;
+  transition-property: transform, filter;
+  transition-property: transform, filter, -webkit-filter;
+}
+
+.tab-container.animating:not(.closing) .from {
+  transform: translate3d(-25%, 0, 0);
+  -webkit-filter: brightness(var(--animation-brightness));
+  filter: brightness(var(--animation-brightness));
+}
+
+.tab-container .active {
+  transform: translate(0);
+}
+
+.tab-container .to {
+  transform: translate(0);
+}
+
+.tab-container.closing .view-wrapper:not(.active) {
+  transform: translate3d(-25%, 0, 0);
+  -webkit-filter: brightness(var(--animation-brightness));
+  filter: brightness(var(--animation-brightness));
+}
+
+.tab-container.animating.closing .from {
+  transform: translate3d(100%, 0, 0);
+}
+
+/* swiping */
+
+.tab-container {
+  --transition-percent: null;
+}
+
+.tab-container.swiping .from {
+  transform: translate3d(calc(var(--transition-percent) * 1%), 0, 0);
+}
+
+.tab-container.swiping .to {
+  transform: translate3d(calc((100 - var(--transition-percent)) * -.25%), 0, 0);
+  filter: brightness(calc(var(--animation-brightness) + var(--transition-percent) * .1%));
+}
+
+.tab-container.animating.closing.swiping .to {
+  transform: translate(0);
+  filter: brightness(100%);
+}
+
+.tab-container.animating.closing.swiping .from {
+  transform: translate3d(100%, 0, 0);
+}
+
+.tab-container.animating.returning .from {
+  transform: translate(0);
+  --animation-brightness: 100%;
+}
+
+.tab-container.animating.returning .to {
+  transform: translate3d(-25%, 0, 0);
+}
+
+.tab-scale-container .view-wrapper {
+  --scale-start-y: 0;
+  --scale-start-x: 0;
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: calc(var(--scale-start-y) * 1px) alc(var(--scale-start-x) * 1px);
+  display: block;
+}
+
+.tab-scale-container .view-wrapper.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.tab-scale-container.closing .view-wrapper.from {
+  opacity: 0;
+  transform: scale(0);
+}</style><style type="text/css">/* Modal */
+.modal-container,
+.modal-view-wrapper .view-wrapper,
+.modal-view-wrapper .backdrop,
+.modal-view-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.modal-container,
+.modal-view-wrapper .backdrop,
+.modal-view-wrapper {
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.modal-container .backdrop {
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  z-index: 0;
+}
+
+.modal-container .deactive .backdrop {
+  opacity: 1;
+}
+
+.modal-container .active .backdrop {
+  opacity: 1;
+}
+
+.modal-container.animating .backdrop {
+  transition-property: opacity;
+}
+
+.modal-container .view-wrapper {
+  --transition-percent: 50; 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: calc(var(--transition-percent) * 1%);
+  transform: translateY(calc((var(--transition-percent) * -1%) + 40px));
+  max-height: 100%;
+  overflow: auto;
+  background-color: var(--modal-bg);
+  z-index: 1;
+  opacity: 0;
+}
+
+.modal-container.animating .view-wrapper {
+  transition-property: transform, opacity;
+  transition-timing-function: ease;
+}
+
+.modal-container .modal-view-wrapper.to .view-wrapper,
+.modal-container .modal-view-wrapper.active .view-wrapper {
+  transform: translateY(calc(var(--transition-percent) * -1%));
+  opacity: 1;
+}
+
+.modal-container.closing .modal-view-wrapper.from .view-wrapper {
+  transform: translateY(calc((var(--transition-percent) * -1%) + 40px));
+}
+
+.modal-container .modal-view-wrapper.deactive .view-wrapper {
+  transform: translateY(calc(var(--transition-percent) * -1%));
+  opacity: 1;
+}
+
+
+.modal-container.animating.closing .from .view-wrapper,
+.modal-container.animating.closing .from .backdrop {
+  opacity: 0;
+}
+
+.align-bottom .view-wrapper {
+  --transition-percent: 100; 
+}
+
+.align-top .view-wrapper {
+  --transition-percent: 0; 
+}</style><style type="text/css">/* Confirm */
+.confirm-modal {
+  background-color: #ffffff;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: .25rem;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+}</style><style type="text/css">/* Toast */
+.toasts-container {
+  position: absolute;
+  right: 1rem;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1090;
+  pointer-events: none;
+}
+.toast {
+  --toast-color: #212529;
+  --toast-bg: #fff;
+  --toast-border-radius: var(--border-radius);
+  --toast-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --toast-close-width: 1rem;
+  --toast-close-height: 1rem;
+  --toast-padding-x: 1rem;
+  --toast-padding-y: 1rem;
+
+  width: 22rem;
+  max-width: 100%;
+  font-size: 0.875rem;
+  pointer-events: auto;
+  background-clip: padding-box;
+  padding: var(--toast-padding-y) var(--toast-padding-x);
+  color: var(--toast-color);
+  background-color: var(--toast-bg);
+  border-radius: var(--toast-border-radius);
+  box-shadow: var(--toast-box-shadow);
+  padding-left: calc(var(--toast-close-width) + var(--toast-padding-x) + 1rem);
+  position: relative;
+}
+.toast-message + .toast-message {
+  margin-top: 1rem;  
+}
+.toast-danger {
+  --toast-bg: #f1416c;
+  --toast-color: #fff;
+}
+.toast-success {
+  --toast-bg: #50cd89;
+  --toast-color: #fff;
+}
+.toast-close {
+  --toast-close-color: #000;
+  --toast-close-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+  --toast-close-opacity: 0.5;
+  --toast-close-hover-opacity: 0.75;
+  --toast-close-focus-opacity: 1;
+  --toast-close-disabled-opacity: 0.25;
+
+  box-sizing: content-box;
+  width: var(--toast-close-width);
+  height: var(--toast-close-height);
+  padding: 0.25em 0.25em;
+  color: var(--toast-close-color);
+  background: transparent var(--toast-close-bg) center/1em auto no-repeat;
+  border: 0;
+  border-radius: 0.375rem;
+  opacity: var(--toast-close-opacity);
+  position: absolute;
+  left: var(--toast-padding-x);
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.toast-close:hover {
+  opacity: var(--toast-close-hover-opacity);
+}
+.toast-close:focus {
+  opacity: var(--toast-close-focus-opacity);
+}
+</style><style type="text/css">@keyframes animateErrorIcon {
+  0% {
+    transform: rotateX(100deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+@keyframes animateXMark {
+  0% {
+    transform: scale(0.6);
+    margin-top: 1.625rem;
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.6);
+    margin-top: 1.625rem;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+.alert-modal {
+  background-color: #ffffff;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+}
+.sa-icon {
+  --sa-icon-size: 3.75rem;
+  --sa-border-width: 3px;
+  --sa-border-color: transparent;
+  width: var(--sa-icon-size);
+  height: var(--sa-icon-size);
+  border: var(--sa-border-width) solid var(--sa-border-color);
+  border-radius: 50%;
+  margin: 1.25rem auto;
+  position: relative;
+  box-sizing: content-box;
+}
+.sa-x-mark {
+  position: relative;
+  display: block;
+}
+.sa-line {
+  --sa-line-height: 2px;
+  --sa-line-width: calc(var(--sa-icon-size) * 0.58);
+  --sa-line-top: calc((var(--sa-icon-size) - var(--sa-line-width)) + 0.25rem);
+  --sa-tip-width: calc(var(--sa-icon-size) * 0.3);
+  --sa-long-width: calc(var(--sa-icon-size) * 0.5);
+  position: absolute;
+  display: block;
+  z-index: 2;
+}
+.sa-error {
+  animation: animateErrorIcon 0.5s;
+  border-color: #d43f3a;
+}
+.sa-error .sa-x-mark {
+  height: 100%;
+  animation: animateXMark 0.5s;
+}
+.sa-error .sa-line {
+  background-color: #d9534f;
+  height: var(--sa-line-height);
+  width: var(--sa-line-width);
+  top: var(--sa-line-top);
+  border-radius: 0.125rem;
+}
+.sa-error .sa-line.sa-left {
+  transform: rotate(45deg);
+  left: 14px;
+}
+.sa-error .sa-line.sa-right {
+  transform: rotate(-45deg);
+  right: 13px;
+}
+.sa-success {
+  border-color: #4cae4c;
+}
+.sa-success .sa-line {
+  height: var(--sa-line-height);
+  background-color: #5cb85c;
+}
+.sa-success .sa-line.sa-tip {
+  width: var(--sa-tip-width);
+  left: 12px;
+  top: 37px;
+  transform: rotate(45deg);
+}
+.sa-success .sa-line.sa-long {
+  width: var(--sa-long-width);
+  right: 8px;
+  top: 33px;
+  transform: rotate(-45deg);
+}</style><style type="text/css">/* Slide */
+.slider-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-wrapper .view-wrapper {
+  display: none;
+}
+
+/* Slide Tabs */
+ 
+.slider-wrapper .slider-tabs::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  width: .375rem;
+}
+.slider-tabs {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+  height: 50px;
+  user-select: none;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slider-tabs>div {
+  height: 100%;
+  flex: 0 0 auto;
+}
+
+.slider-tabs .pointer {
+  position: absolute;
+  height: 4px;
+  bottom: 0;
+  background: #c59ece;
+  width: 100%;
+  left: 0;
+  transform-origin: top left;
+  will-change: transform;
+  border-radius: 5px 5px 0 0;
+  display: none;
+}
+
+/* Slide Container */
+
+.slider-container {
+  position: relative;
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+.slider-container > .view-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}</style><style data-emotion="css" data-s=""></style><style data-emotion="rtl-global" data-s=""></style><style data-emotion="rtl" data-s=""></style></head><body style="--scroll-width: 19px;"><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div class="rtl-0"></div><div class="rtl-qao809"><div class="view-container master-container has-view" style="--animating-transition: 0s;"><div class="view-wrapper deactive" style="z-index: 0;"><nav class="rtl-l0l9cq"><div width="100%" height="100%" display="flex" class="rtl-jb7fhh"><div class="rtl-1biv801"><div class="rtl-1kewwlc"><img src="./hsnzde_files/setting-hamburger.svg" draggable="false" class="image-loaded"></div></div><div class="rtl-evzjzf"><div width="100%" height="100%" class="rtl-1f8sh1y"><div class="rtl-rwzot0"><div class="rtl-1kewwlc"><img src="./hsnzde_files/main-logo.svg" draggable="false" class="image-loaded"></div></div></div></div><div class="rtl-0"></div></div></nav><div width="100%" display="flex" class="rtl-v345jw" style="top: 60px;"><div size="2" width="30" height="30" class="rtl-1hviht1"></div></div><div data-scroll-container="true" class="rtl-tbhk45"><div width="100%" height="50" class="rtl-1sj397l"></div><div class="rtl-1txpe7v"><div class="rtl-0"><div width="100%" height="100%" overflow="hidden" display="flex" class="rtl-ny3q3c"><ul class="rtl-utzg06" style="transform: translate3d(0px, 0px, 0px);"><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="275.2" class="rtl-1a3ib4r"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6aca64803b7750253cbef98c.png" draggable="false" class="image-loaded"></div></div></div></div></div></li><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="275.2" class="rtl-1a3ib4r"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6ace571c3b7750253f06a204.png" draggable="false" class="image-loaded"></div></div></div></div></div></li></ul><div display="flex" class="rtl-14j6ovz"><div class="rtl-1hwr3e5"></div><div class="rtl-141utm"></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div class="rtl-1vvhqsl">دنیای شاد</div></div><div display="flex" class="rtl-70qvj9"><div width="25" height="25" overflow="hidden" class="rtl-cflvoc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7724ee3b77501dbcf48e3c.png" draggable="false" class="image-loaded"></div></div></div></div></div><div width="100%" height="100%" overflow="hidden" display="flex" class="rtl-ny3q3c"><ul class="rtl-utzg06"><li class="rtl-tlc0ty"><div width="100%" height="100%" display="flex" class="rtl-9986ir"><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7feada3b77501dbd5be032.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">تماشا</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7a16b93b77501dbcf48f43.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">فیلم و سریال</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7febf73b77501dbcf49099.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">ورزشی</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7af26f3b77501dbd5bde2e.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">شادبوم</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7a175d3b77501dbcf48f53.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">رویداد</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7feae53b77501dbd5be037.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">آموزش</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a9e707a3b77504dab6e3fce.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">شادخوان</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6a7a17cf3b77501dbd5bdddd.png" draggable="false" class="image-loaded"></div><span class="rtl-1cgvxsa">مدرسه من</span></div></div></li><li class="rtl-tlc0ty"><div width="100%" height="100%" display="flex" class="rtl-9986ir"><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">درگاه خدمات</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">کتابخانه</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">بازی</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">پشتیبانی</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">تماشاخونه</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">شارژ و اینترنت</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">پخش زنده</span></div><div class="rtl-1cjmxlc"><div class="rtl-1kewwlc"></div><span class="rtl-1cgvxsa">شادبین</span></div></div></li></ul><div display="flex" class="rtl-1aw09b2"><div class="rtl-1o0q03u"></div><div class="rtl-kr3zvw"></div></div></div></div></div></div><div class="rtl-0"><div width="100%" height="100%" overflow="hidden" display="flex" class="rtl-ny3q3c"><ul class="rtl-utzg06" style="transform: translate3d(720px, 0px, 0px);"><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="156.00907029478458" class="rtl-17q1ope"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6accb4473b7750253f06a0a1.png" draggable="false" class="image-loaded"></div></div></div></div></div></li><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="156.00907029478458" class="rtl-17q1ope"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6acc85883b7750253cbef9bc.png" draggable="false" class="image-loaded"></div></div></div></div></div></li><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="156.00907029478458" class="rtl-17q1ope"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6abc12223b7750571b712d46.png" draggable="false" class="image-loaded"></div></div></div></div></div></li></ul><div display="flex" class="rtl-14j6ovz"><div class="rtl-kr3zvw"></div><div class="rtl-1o0q03u"></div><div class="rtl-kr3zvw"></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0 css-79elbk"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div width="25" height="25" overflow="hidden" class="rtl-11x09gn"><div class="rtl-1kewwlc"><img src="./hsnzde_files/6aae3c373b775019777ff15f.png" draggable="false" class="image-loaded"></div></div><div class="rtl-7etrux">تماشا؛ اتاق معلمان</div></div><div display="flex" class="rtl-70qvj9"><button class="rtl-d3fe6a">مشاهده بیشتر</button></div></div></div><div overflow="hidden" class="rtl-i6bazn"><div display="flex" direction="rtl" class="rtl-v4mguo" style="transform: translate3d(-1389px, 0px, 0px);"><div id="ParallaxItemsContainer-0" class="rtl-1bfrmb8"><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div></div><div id="ParallaxItemsContainer-1" class="rtl-1bfrmb8"><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div></div></div></div></div></div></div><form><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-1suc624"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div display="flex" class="rtl-tt49ty"><div class="rtl-ahreu3"><div class="rtl-1kewwlc"><img src="./hsnzde_files/650eda179dc6d62bbe2afec9.png" draggable="false" class="image-loaded"></div></div><div class="rtl-i9gxme"><input placeholder="هر چی دلت میخواد بپرس" class="rtl-aw9ji" value=""></div></div></div></div></div></form><div class="rtl-0"><div width="100%" height="100%" overflow="hidden" display="flex" class="rtl-ny3q3c"><ul class="rtl-utzg06" style="transform: translate3d(720px, 0px, 0px);"><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="156.00907029478458" class="rtl-17q1ope"><div class="rtl-1kewwlc"></div></div></div></div></div></li><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="156.00907029478458" class="rtl-17q1ope"><div class="rtl-1kewwlc"></div></div></div></div></div></li><li class="rtl-1hpwl0m"><div class="rtl-0 css-79elbk"><div width="100%" class="rtl-68ezcq"><div width="100%" class="rtl-1jke4yk"><div width="100%" height="156.00907029478458" class="rtl-17q1ope"><div class="rtl-1kewwlc"></div></div></div></div></div></li></ul><div display="flex" class="rtl-1aw09b2"><div class="rtl-141utm"></div><div class="rtl-1hwr3e5"></div><div class="rtl-141utm"></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0 css-79elbk"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div width="25" height="25" overflow="hidden" class="rtl-11x09gn"><div class="rtl-1kewwlc"></div></div><div class="rtl-1vvhqsl">رویداد</div></div><div display="flex" class="rtl-70qvj9"><button class="rtl-wrdlzr">مشاهده همه</button></div></div></div><div width="100%" class="rtl-1spe6m1"><div class="rtl-1q7njkh"><div width="100%" display="flex" overflow="hidden" class="rtl-1utxk1l"><div display="flex" class="rtl-4knjz3"><div display="flex" class="rtl-4knjz3"><div width="178" height="281" class="rtl-174lfdb"><div x1="0.05" x2="1.75" y1="0" y2="0.96" type="Rectangle" class="rtl-11m1gzq"></div><div x1="0.05" x2="1.75" y1="1.44" y2="2.4" type="Rectangle" class="rtl-kf2lut"></div></div></div></div></div></div></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0 css-79elbk"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div width="25" height="25" overflow="hidden" class="rtl-11x09gn"><div class="rtl-1kewwlc"></div></div><div class="rtl-1vvhqsl">فیلم و سریال</div></div><div display="flex" class="rtl-70qvj9"><button class="rtl-hgsg99">مشاهده همه</button></div></div></div><div width="100%" class="rtl-1spe6m1"><div class="rtl-1q7njkh"><div width="100%" display="flex" overflow="hidden" class="rtl-vssnsq"><div display="flex" class="rtl-4knjz3"><div display="flex" class="rtl-4knjz3"><div width="130" height="258" class="rtl-3dv80s"><div x1="0" x2="1.3" y1="0" y2="2.04" type="Rectangle" class="rtl-1c8ca5r"></div></div></div></div></div></div></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0 css-79elbk"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div width="25" height="25" overflow="hidden" class="rtl-11x09gn"><div class="rtl-1kewwlc"></div></div><div class="rtl-1vvhqsl">ورزشی</div></div><div display="flex" class="rtl-70qvj9"><button class="rtl-3at98">مشاهده بیشتر</button></div></div></div><div width="100%" class="rtl-1spe6m1"><div class="rtl-1q7njkh"><div width="100%" display="flex" overflow="hidden" class="rtl-vssnsq"><div display="flex" class="rtl-4knjz3"><div display="flex" class="rtl-4knjz3"><div width="130" height="257" class="rtl-1vm3apy"><div x1="0" x2="1.3" y1="0" y2="2.04" type="Rectangle" class="rtl-1g4g73t"></div></div></div></div></div></div></div></div></div></div><div overflow="hidden" class="rtl-q5z6gh"><div class="rtl-1ddsatt"><div class="rtl-1kewwlc"></div></div><div class="rtl-56zoah"><span color="#ffffff" font-size="1" class="rtl-1sybu93">شادبوم</span><div width="100%" display="flex" overflow="hidden" class="rtl-1335s0y"><div display="flex" class="rtl-pdkh9"><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"></div><span color="" class="rtl-13j7ynx"></span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">روبوکد</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">آناتومیار</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">ویرا بوک</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">مرشد</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">نورولند</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">اُکیان</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">جونیورا</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">کی‌برد</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">کدیکا</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">کوئیز ۲۴</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">آی‌نو</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">اندرز</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">سندکت</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">کوشاهوش</span></div><div width="171" display="flex" class="rtl-1r520fd"><div class="rtl-qqv389 css-79elbk"><div class="rtl-163kdau"><div class="rtl-1kewwlc"></div></div></div><span color="" class="rtl-13j7ynx">چی بخونم ؟</span></div><div display="flex" class="rtl-16kxz9a"><div width="171" height="256.5" class="rtl-1gp9t2k"></div></div></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div width="25" height="25" overflow="hidden" class="rtl-11x09gn"><div class="rtl-1kewwlc"></div></div><div class="rtl-1vvhqsl">آموزش</div></div><div display="flex" class="rtl-70qvj9"></div></div></div><div width="100%" class="rtl-1spe6m1"><div class="rtl-1q7njkh"><div width="100%" display="flex" overflow="hidden" class="rtl-vssnsq"><div display="flex" class="rtl-4knjz3"><div display="flex" class="rtl-4knjz3"><div width="130" height="209" class="rtl-ushzbz"><div x1="0" x2="1.3" y1="0" y2="2.09" type="Rectangle" class="rtl-jvzdw"></div></div></div></div></div></div></div></div><div width="100%" class="rtl-8atqhb"><div class="rtl-0"><div width="100%" display="flex" class="rtl-1tie41d"><div display="flex" class="rtl-cnpzmx"><span class="rtl-1i0s3fl"></span></div></div></div></div></div></div><div class="rtl-w6ua4j"><div width="100%" display="flex" class="rtl-kd3gto"><div width="100%" data-ripple-disabled="true" class="rtl-1iogify"><div class="rtl-0 css-79elbk"><div display="flex" class="rtl-1scmu94"><div display="flex" class="rtl-c36nl0"><div width="25" height="25" overflow="hidden" class="rtl-11x09gn"><div class="rtl-1kewwlc"></div></div><div class="rtl-1vvhqsl">بازی (بدون نصب بازی کن)</div></div><div display="flex" class="rtl-70qvj9"><button class="rtl-yzjzea">مشاهده همه</button></div></div></div><div overflow="hidden" class="rtl-i6bazn"><div display="flex" direction="rtl" class="rtl-v4mguo" style="transform: translate3d(-877px, 0px, 0px);"><div id="ParallaxItemsContainer-0" class="rtl-1bfrmb8"><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div></div><div id="ParallaxItemsContainer-1" class="rtl-1bfrmb8"><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div><div display="flex" direction="rtl" class="rtl-bb6ylp"><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div><div class="rtl-0 css-79elbk"><div width="160.5" height="160.5" class="rtl-fsddvv"><div class="rtl-1kewwlc"></div></div></div></div></div></div></div></div></div></div><div><div class="rtl-6yavch"></div></div></div></div></div><div class="view-wrapper active" style="z-index: 1;"><div class="rtl-n2ci85"><div width="100%" height="100%" class="rtl-1f8sh1y"><iframe title="messenger" src="./hsnzde_files/index.html" frameborder="0" width="100%" height="100%" sandbox="allow-same-origin allow-scripts allow-forms allow-downloads" class="rtl-1526ib8"></iframe></div></div></div></div><div width="100%" display="flex" class="rtl-lhpvbm"><button class="rtl-1ghlru7"><img src="./hsnzde_files/servies-black.svg" alt="navigation-icon"><span style="display: inline-block;">خانه</span></button><button class="rtl-14mbecv"><img src="./hsnzde_files/messenger-colored.svg" alt="navigation-icon"><span style="display: inline-block;">پیام رسان</span></button><button class="rtl-1ghlru7"><img src="./hsnzde_files/mySchool-black.svg" alt="navigation-icon"><span style="display: inline-block;">مدرسه من</span></button><button class="rtl-1ghlru7"><img src="./hsnzde_files/shadino-black.svg" alt="navigation-icon"><span style="display: inline-block;">تماشا</span></button><button class="rtl-1ghlru7"><img src="./hsnzde_files/shadbin-black.svg" alt="navigation-icon"><span style="display: inline-block;">شادبین</span></button></div></div><div class="view-container hidden"></div><div class="view-container hidden"></div></div></body></html>
